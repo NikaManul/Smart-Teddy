@@ -177,7 +177,7 @@ header .actions span {
     color: rgba(102, 69, 53, 1);
 }
 
-.card-left::before {
+.tutorial .card-left::before {
     content: "Easy to control!";
     position: absolute;
     top: 50px;
@@ -190,13 +190,13 @@ header .actions span {
     border-radius: 7.59px 7.59px 7.59px 0;
     background-color: rgba(240, 240, 238, 1);
 }
-.card2 {
+.tutorial .card2 {
     margin-top: 77px;
 }
-.card2 .card-right {
+.tutorial .card2 .card-right {
     margin-left: 0;
 }
-.card2 .card-left {
+.tutorial .card2 .card-left {
     margin-left: 180px;
 }
 
@@ -373,6 +373,54 @@ header .actions span {
     position: absolute;
     top: 60px;
     left: 500px;
+}
+
+.explanation {
+    margin-top: 30px;
+    background-color: rgb(245, 245, 245);
+}
+
+.explanation h2 {
+    margin-top: 34px;
+    font-size: 40px;
+}
+
+.explanation p {
+    margin-top: 25px;
+}
+
+.explanation .row {
+    margin: 20px 0;
+}
+.explanation .row > * {
+    display: inline-block;
+    width: 358px;
+    height: 534px;
+    border-radius: 13px;
+    padding: 0px 26px;
+    color: rgba(102, 69, 53, 1);
+    background-color: #fff;
+}
+.explanation .row div:nth-child(2) {
+    margin: 0 10px;
+}
+.explanation .row > * h3 {
+    font-size: 33px;
+    padding-top: 40px;
+}
+.explanation .row > * p {
+    font-size: 18px;
+    height: 80px;
+}
+.explanation .row > * img {
+    width: 321px;
+    height: 275px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+.explanation .card1 img {
+    box-shadow: 0px 20px 25px gray;
 }
 
 footer {
